@@ -1,0 +1,11 @@
+[package]
+name = "hwnd_tracer"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies.winapi]
+version = "0.3"
+default-features = true
+features = ["dxgi", "dxgi1_2", "dxgi1_5", "d3d11", "winuser", "winerror", "errhandlingapi", "libloaderapi", "psapi", "processthreadsapi"]
